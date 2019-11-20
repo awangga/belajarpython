@@ -1,1 +1,3 @@
+import kelas
+
 print('hai')
