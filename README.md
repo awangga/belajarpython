@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.com/awangga/belajarpython.svg?branch=master)](https://travis-ci.com/awangga/belajarpython)
+Status Kode Program : [![Build Status](https://travis-ci.com/awangga/belajarpython.svg?branch=master)](https://travis-ci.com/awangga/belajarpython)
+passing : Bebas Error
+
 # Kuis Pemrograman 2
 Kuis kali ini ada dua soal:
 1. Buat method pada kelas.py
