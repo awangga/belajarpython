@@ -43,8 +43,12 @@ print("Franc - AfrikaTengah",franc.franc_afrikatengah(idr))
 
 #Nur Hanifah Amatullah - 1184086
 mataUang = kelas.MataUang()
-print("Kolombia - peso ",mataUang.Kolombia_peso(idr))
+print("peso - Kolombia ",mataUang.Kolombia_peso(idr))
 
 #Echa Dwiifanka - 1184022
 mataUang = kelas.MataUang()
-print("Bulgaria - forint ",mataUang.Bulgaria_forint(idr))
+print("Lev - Bulgaria ",mataUang.Bulgaria_forint(idr))
+
+#Jefrinanda Iaspartogi Marbun - 1184052
+mataUang = kelas.MataUang()
+print("India - Rupee ",mataUang.India_forint(idr))
