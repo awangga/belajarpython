@@ -35,3 +35,7 @@ class MataUang:
     def shekel_israel(self,idr):
         result = float(idr) * 0.00025
         return result
+    #Rayhan yuda lesmana - 1184007
+    def kuna_kroasia(self,idr):
+        result = float(idr) * 0.00048
+        return result    
