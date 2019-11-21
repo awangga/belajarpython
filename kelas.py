@@ -43,3 +43,7 @@ class MataUang:
     def franc_afrikatengah(self,idr):
         result = float(idr) * 0.042
         return result
+     #Nur Hanifah Amatullah - 1184086
+    def Kolombia_peso(self, idr):
+        hasil=float(idr) * 0.24
+        return hasil
