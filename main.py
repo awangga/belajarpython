@@ -64,3 +64,7 @@ print("Bosnia - Mark",mataUang.Bosnia_mark(idr))
 #Alifia Zahra
 mataUang = kelas.MataUang()
 print("Iran - Rial",mataUang.Iran_Rial(idr))
+
+#Andi Nur Utari - 1184039
+MataUang = kelas.MataUang()
+print("Bahrain - Dinar",MataUang.Bahrain_dinar(idr))

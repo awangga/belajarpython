@@ -69,3 +69,8 @@ class MataUang:
     def Iran_Rial(self, idr):
         hasil = float(idr) * 0.42
         return hasil
+    
+    #Andi Nur Utari - 1184039
+    def Bahrain_dinar(self, idr):
+        hasil = float(idr) * 0.000027
+        return hasil
