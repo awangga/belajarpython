@@ -18,3 +18,8 @@ print(matUangconvert)
 #Dyning Aida Batrishya - 1184030
 mataUang = kelas.MataUang()
 print("Arab Saudia - Riyal",mataUang.ArabSaudia(idr))
+
+#Etika Khusnul Laeli - 1184065
+mataUang = kelas.MataUang()
+print("Dram - Armenia",mataUang.DramArmenia(idr))
+

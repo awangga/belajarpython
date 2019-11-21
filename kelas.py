@@ -19,3 +19,7 @@ class MataUang:
     def ArabSaudia(self,idr):
         result = float(idr) * 0.0003
         return result
+    #Etika Khusnul Laeli - 1184065
+    def DramArmenia(self,idr):
+        result = float(idr) * 0.034
+        return result
