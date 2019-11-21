@@ -51,4 +51,7 @@ class MataUang:
     def Bulgaria_forint(self, idr):
         hasil=float(idr) * 0.00013
         return hasil
-    
+    #Jefrinanda Iaspartogi Marbun - 1184052
+    def India_forint(self, idr):
+        hasil=float(idr) * 0.005
+        return hasil
