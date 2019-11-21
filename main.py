@@ -34,3 +34,6 @@ print("yen - jepang",mataUang.yen_jepang(idr))
 #muhammad sharif miftahuddin - 1184044
 mataUang = kelas.MataUang()
 print("shekel - israel",mataUang.shekel_israel(idr))
+#Rayhan yuda lesmana - 1184007
+mataUang = kelas.MataUang()
+print("Kuna - Kroasia",mataUang.kuna_kroasia(idr))
