@@ -26,3 +26,7 @@ print("Dram - Armenia",mataUang.DramArmenia(idr))
  #Muchamad innal kariem - 1184036
 mataUang = kelas.MataUang()
 print("Krona - islandia",mataUang.krona_Islandia(idr))
+
+#muhammad wahyu ardi ismail - 1184059
+mataUang = kelas.MataUang()
+print("yen - jepang",mataUang.yen_jepang(idr))

@@ -27,3 +27,7 @@ class MataUang:
     def krona_Islandia(self,idr):
         result = float(idr) * 0.0087
         return result
+     #muhammad wahyu ardi ismail - 1184059
+    def yen_jepang(self,idr):
+        result = float(idr) * 0.0077
+        return result
