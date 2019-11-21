@@ -1,3 +1,4 @@
 import kelas
 
-print('hai')
+mataUang = kelas.MataUang()
+print(mataUang.Anguilla())
