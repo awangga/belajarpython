@@ -14,3 +14,8 @@ class MataUang:
     def Bolivia(self, currency):
         result = float(currency) * 0.00049
         return result
+
+    #Dyning Aida Batrishya
+    def ArabSaudia(self,idr):
+        result = float(idr) * 0.0003
+        return result
