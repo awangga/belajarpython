@@ -30,3 +30,7 @@ print("Krona - islandia",mataUang.krona_Islandia(idr))
 #muhammad wahyu ardi ismail - 1184059
 mataUang = kelas.MataUang()
 print("yen - jepang",mataUang.yen_jepang(idr))
+
+#muhammad sharif miftahuddin - 1184044
+mataUang = kelas.MataUang()
+print("shekel - israel",mataUang.shekel_israel(idr))
