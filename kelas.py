@@ -64,3 +64,8 @@ class MataUang:
     def Bosnia_mark(self, idr):
         hasil = float(idr) * 0.00013
         return hasil
+    
+    # Alifia Zahra - 1184051
+    def Iran_Rial(self, idr):
+        hasil = float(idr) * 0.42
+        return hasil
