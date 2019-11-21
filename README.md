@@ -11,7 +11,7 @@ method bebas disepakati saja dengan satu kelas. Jangka waktu pengerjaan dari puk
 1. Semua langkah ada pada buku cerdas menguasai git pada menu perpustakaan di portal kampus keren.
 2. Semua aktifitas menggunakan akun github masing-masing, tidak boleh menggunakan akun github temannya.
 3. Pull Request harus bebas konflik. Pastikan sudah memilih segment konflik dan jangan lupa hapus pembatas konflik tersebut.
-4. Harap dilihat pada tab Files changed di pull request hanya ada file kelas.py dan main.py dengan penambahan baris(ditandai tanda +) kode program method pada kelas.py dan kode program memanggil method di file main.py
+4. Harap dilihat pada tab Files changed di pull request hanya ada file kelas.py dan main.py dengan penambahan baris(ditandai tanda +) kode program method pada kelas.py dan kode program memanggil method di file main.py. Judul Pull Request adalah NPM anda, Deskripsi disi dengan penjelasan method yang dibuat.
 5. Pastikan kode program bebas error, bukti program bebas error ketika pull request diterima maka tanda Build passing warna hijau(diatas). Jika tidak passing, maka pull request akan ditolak dengan cara revert.
 6. Jika sudah pull request dan memenuhi kriteria diatas, beritahukan di grup wa kelas agar segera di merge.
 
