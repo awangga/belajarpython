@@ -39,3 +39,7 @@ class MataUang:
     def kuna_kroasia(self,idr):
         result = float(idr) * 0.00048
         return result    
+    #Ahmad Agung Tawakkal - 1184015
+    def franc_afrikatengah(self,idr):
+        result = float(idr) * 0.042
+        return result
