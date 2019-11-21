@@ -62,5 +62,5 @@ class MataUang:
 
     # Siti N Puja Kesuma - 1184004
     def Bosnia_mark(self, idr):
-        hasil = float(idr) * 0,00013
+        hasil = float(idr) * 0.00013
         return hasil
