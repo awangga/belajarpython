@@ -44,3 +44,7 @@ print("Franc - AfrikaTengah",franc.franc_afrikatengah(idr))
 #Nur Hanifah Amatullah - 1184086
 mataUang = kelas.MataUang()
 print("Kolombia - peso ",mataUang.Kolombia_peso(idr))
+
+#Echa Dwiifanka - 1184022
+mataUang = kelas.MataUang()
+print("Bulgaria - forint ",mataUang.Bulgaria_forint(idr))
