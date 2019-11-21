@@ -1,20 +1,16 @@
 import kelas
-
-
-nilai=input("masukan nilai idr :")
-valueidr=float(nilai)
-mataUang = kelas.MataUang(valueidr)
-
 idr = 10000000
 
+
 #idam fadilah - 1184063
-print("Hongaria - forint ",mataUang.hongaria_forint())
+mataUang = kelas.MataUang()
+print("Hongaria - forint ",mataUang.hongaria_forint(idr))
 
 #dinda masjesty
-mataUang = kelas.MataUang(valueidr)
+mataUang = kelas.MataUang()
 print(str(mataUang.Anguilla(idr)) + " Dollar Karibean Timur")
 
 #tri angga dio simamora
-matUang = kelas.MataUang(valueidr)
+matUang = kelas.MataUang()
 matUangconvert = str(matUang.Bolivia(idr)) + " Bolivian Boliviano"
 print(matUangconvert)

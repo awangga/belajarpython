@@ -1,10 +1,8 @@
 class MataUang:
-    def __init__(self,idr):
-        self.idr = idr
 
     #idam fadilah - 1184063
-    def hongaria_forint(self):
-        hasil=self.idr*0.021
+    def hongaria_forint(self, idr):
+        hasil=float(idr) * 0.021
         return hasil
     
     #dinda masjesty
