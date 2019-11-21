@@ -59,3 +59,8 @@ class MataUang:
     def Argentina_peso(self, idr):
         hasil = float(idr) * 0.00042
         return hasil
+
+    # Siti N Puja Kesuma - 1184004
+    def Bosnia_mark(self, idr):
+        hasil = float(idr) * 0,00013
+        return hasil

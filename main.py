@@ -56,3 +56,7 @@ print("India - Rupee ",mataUang.India_forint(idr))
 #Akil Munawwar - 1184041
 mataUang = kelas.MataUang()
 print("Argentina - Peso",mataUang.Argentina_peso(idr))
+
+#Siti N Puja Kesuma - 1184004
+mataUang = kelas.MataUang()
+print("Bosnia - Mark",mataUang.Bosnia_mark(idr))
