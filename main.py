@@ -1,4 +1,4 @@
 import kelas
 
-mataUang = kelas.Anguilla()
-print(mataUang)
+mataUang = kelas.MataUang()
+print(mataUang.Anguilla())
