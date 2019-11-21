@@ -23,3 +23,7 @@ class MataUang:
     def DramArmenia(self,idr):
         result = float(idr) * 0.034
         return result
+    #Muchamad innal kariem - 1184036
+    def krona_Islandia(self,idr):
+        result = float(idr) * 0.0087
+        return result

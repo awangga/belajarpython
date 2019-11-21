@@ -23,3 +23,6 @@ print("Arab Saudia - Riyal",mataUang.ArabSaudia(idr))
 mataUang = kelas.MataUang()
 print("Dram - Armenia",mataUang.DramArmenia(idr))
 
+ #Muchamad innal kariem - 1184036
+mataUang = kelas.MataUang()
+print("Krona - islandia",mataUang.krona_Islandia(idr))
