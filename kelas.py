@@ -47,3 +47,8 @@ class MataUang:
     def Kolombia_peso(self, idr):
         hasil=float(idr) * 0.24
         return hasil
+      #Echa Dwiifanka - 1184022
+    def Bulgaria_forint(self, idr):
+        hasil=float(idr) * 0.00013
+        return hasil
+    
