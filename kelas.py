@@ -55,3 +55,7 @@ class MataUang:
     def India_forint(self, idr):
         hasil=float(idr) * 0.005
         return hasil
+    #Akil Munawwar - 1184041
+    def Argentina_peso(self, idr):
+        hasil = float(idr) * 0.00042
+        return hasil

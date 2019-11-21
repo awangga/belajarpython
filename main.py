@@ -52,3 +52,7 @@ print("Lev - Bulgaria ",mataUang.Bulgaria_forint(idr))
 #Jefrinanda Iaspartogi Marbun - 1184052
 mataUang = kelas.MataUang()
 print("India - Rupee ",mataUang.India_forint(idr))
+
+#Akil Munawwar - 1184041
+mataUang = kelas.MataUang()
+print("Argentina - Peso",mataUang.Argentina_peso(idr))
