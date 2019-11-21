@@ -31,3 +31,7 @@ class MataUang:
     def yen_jepang(self,idr):
         result = float(idr) * 0.0077
         return result
+     #muhammad sharif miftahuddin - 1184044
+    def shekel_israel(self,idr):
+        result = float(idr) * 0.00025
+        return result
