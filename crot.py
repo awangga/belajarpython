@@ -39,3 +39,8 @@ class HargaPasar :
     def Timun(self, Jumlah):
         hasil = float(Jumlah) - 11000
         return hasil
+
+         #Yusuf Jordan E A (1184026)
+    def Talok(self, Jumlah):
+        hasil = float(Jumlah) - 27000
+        return hasil
