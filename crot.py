@@ -59,3 +59,8 @@ class HargaPasar :
     def labu(self, Jumlah):
         hasil = float(Jumlah) - 18000
         return hasil
+    
+        #Rizal Ramadhan 184033
+    def tempe(self, Jumlah):
+        hasil = float(Jumlah) - 5000
+        return hasil
