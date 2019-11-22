@@ -18,4 +18,4 @@ method apa saja yang dibuat disepakati saja dengan satu kelas. Jangka waktu peng
 
 Penilaian sederhana, apabila memenuhi kaidah diatas dan pull request diterima maka nilai 100. 
 
-Selain itu, selama proses pengerjaan maka wajib direkam desktopnya sambil memberikan penjelasan tentang bagaimana method nya bekerja dan pemanggilannya serta bagaimana cara melakukan pull request yang bebas konflik, lebih bagus lagi dilengkapi webcam. Kemudian diupload ke youtube untuk diberikan penilaian terpisah. Deadline sudah terupload dan di share di wa grup kelas adalah esok harinya pukul 07.00.
+Selain itu, selama proses pengerjaan maka wajib direkam desktopnya sambil memberikan penjelasan tentang bagaimana method nya bekerja dan pemanggilannya serta bagaimana cara melakukan pull request yang bebas konflik, lebih bagus lagi dilengkapi webcam. Kemudian diupload ke youtube untuk diberikan penilaian terpisah. Untuk deadline vidio sudah terupload dan di share di wa grup kelas adalah esok harinya pukul 07.00. Pastikan pada saat share meta data link youtube yang di share sudah terbaca di grup WA sebelum di submit.
