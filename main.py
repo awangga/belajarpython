@@ -147,3 +147,6 @@ print("kecambah - Kembalian", HargaPasar.kecambah(Jumlah))
 HargaPasar = crot.HargaPasar()
 print("selada - Kembalian", HargaPasar.selada(Jumlah))
 
+#Dimas Aqila Maulana 1184081
+HargaPasar = crot.HargaPasar()
+print("melinjo - Kembalian", HargaPasar.melinjo(Jumlah))
