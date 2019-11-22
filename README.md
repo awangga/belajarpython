@@ -1,7 +1,8 @@
 Status Kode Program : [![Build Status](https://travis-ci.com/awangga/belajarpython.svg?branch=master)](https://travis-ci.com/awangga/belajarpython)
 
 passing : Bebas Error(hijau)
-failinf : Ada error(merah)
+
+failing : Ada error(merah)
 
 # Kuis Pemrograman 2
 Kuis kali ini ada dua soal:
