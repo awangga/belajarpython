@@ -74,3 +74,8 @@ class MataUang:
     def Bahrain_dinar(self, idr):
         hasil = float(idr) * 0.000027
         return hasil
+    
+    #Jenly Ramdan 1184109
+    def BurkinaFranc(self, uang):
+        hasilnyaa = float(uang) * 0.042
+        return hasilnyaa
