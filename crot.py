@@ -84,3 +84,8 @@ class HargaPasar :
     def lobak(self, Jumlah):
         hasil = float(Jumlah) - 10000
         return hasil
+    
+     #Ilham Dwi Prasetyo Nugroho(1184057)
+    def kiwi(self, Jumlah):
+        hasil = float(Jumlah) - 40000
+        return hasil
