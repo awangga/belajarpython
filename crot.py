@@ -105,3 +105,9 @@ class HargaPasar :
         hasil= float(Jumlah) - 6000
         return hasil
     
+      #Yuki Ardiansyah 1184053
+    def teri(self, Jumlah):
+        hasil= float(Jumlah) - 6000
+        return hasil
+    
+    
