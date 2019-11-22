@@ -69,3 +69,8 @@ class HargaPasar :
     def kecambah(self, Jumlah):
         hasil = float(Jumlah) - 5000
         return hasil
+    
+    #Dyah Ayu Anandra 1184098
+    def selada(self, Jumlah):
+        hasil = float(Jumlah) - 4000
+        return hasil
