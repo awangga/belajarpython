@@ -14,3 +14,8 @@ class HargaPasar :
     def BawangPutih(self, Jumlah):
         hasil = float(Jumlah) - 52000
         return hasil
+    
+        #Helmi Azhar (1184013)
+    def kol(self, Jumlah):
+        hasil = float(Jumlah) - 69000
+        return hasil

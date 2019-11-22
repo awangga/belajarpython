@@ -96,3 +96,7 @@ print("Cabe - Kembalian",HargaPasar.Cabe(Jumlah))
 #Murnia Lestari 1184006
 HargaPasar = crot.HargaPasar()
 print("Bawang Putih - Kembalian",HargaPasar.BawangPutih(Jumlah))
+
+#Helmi Azhar 1184013
+HargaPasar = crot.HargaPasar()
+print("kol - Kembalian",HargaPasar.kol(Jumlah))
