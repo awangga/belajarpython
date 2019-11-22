@@ -34,3 +34,8 @@ class HargaPasar :
     def Melon(self, Jumlah):
         hasil = float(Jumlah) - 25000
         return hasil
+
+          #Gany Berdu Sura (1184008)
+    def Timun(self, Jumlah):
+        hasil = float(Jumlah) - 11000
+        return hasil
