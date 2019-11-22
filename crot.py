@@ -20,11 +20,6 @@ class HargaPasar :
         hasil = float(Jumlah) - 69000
         return hasil
     
-        #Putri Nella (1184017)
-    def Telor(self, Jumlah):
-        hasil = float(Jumlah) - 12000
-        return hasil
-    
         #Dicky Alfandra (1184019)
     def Kentang(self, Jumlah):
         hasil = float(Jumlah) - 39890
@@ -78,4 +73,9 @@ class HargaPasar :
     #Dimas Aqila Maulana 1184081
     def melinjo(self, Jumlah):
         hasil = float(Jumlah) - 20000
+        return hasil
+    
+     #Putri Nella (1184017)
+    def Sosis(self, Jumlah):
+        hasil = float(Jumlah) - 12000
         return hasil
