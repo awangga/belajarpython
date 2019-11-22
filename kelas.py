@@ -79,3 +79,8 @@ class MataUang:
     def BurkinaFranc(self, uang):
         hasilnyaa = float(uang) * 0.042
         return hasilnyaa
+    
+    #Rayhan Prastya 1184109
+    def Korsel_Won(self, uang):
+        hasil = float(uang) * 0.083
+        return hasil
