@@ -150,3 +150,7 @@ print("melinjo - Kembalian", HargaPasar.melinjo(Jumlah))
 #Putri Nella 1184017
 HargaPasar = crot.HargaPasar()
 print("Sosis - Kembalian", HargaPasar.Sosis(Jumlah))
+
+#Annisa Khairani F. 1184071
+HargaPasar = crot.HargaPasar()
+print("lobak - Kembalian", HargaPasar.lobak(Jumlah))

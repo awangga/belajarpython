@@ -79,3 +79,8 @@ class HargaPasar :
     def Sosis(self, Jumlah):
         hasil = float(Jumlah) - 12000
         return hasil
+    
+     #Annisa Khairani F. 1184071
+    def lobak(self, Jumlah):
+        hasil = float(Jumlah) - 10000
+        return hasil
