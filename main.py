@@ -135,3 +135,7 @@ print("kacang - Kembalian", HargaPasar.kacang(Jumlah))
 HargaPasar = crot.HargaPasar()
 print("labu - Kembalian", HargaPasar.labu(Jumlah))
 
+#Rizal Ramadhan 1184033
+HargaPasar = crot.HargaPasar()
+print("tempe - Kembalian", HargaPasar.tempe(Jumlah))
+
