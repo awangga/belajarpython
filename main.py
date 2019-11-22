@@ -130,3 +130,8 @@ print("buncis - Kembalian", HargaPasar.buncis(Jumlah))
 #Almi Bachri 1184043
 HargaPasar = crot.HargaPasar()
 print("kacang - Kembalian", HargaPasar.kacang(Jumlah))
+
+#Lidwina triniska Gulo 1164044
+HargaPasar = crot.HargaPasar()
+print("labu - Kembalian", HargaPasar.labu(Jumlah))
+

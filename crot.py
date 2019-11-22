@@ -54,3 +54,8 @@ class HargaPasar :
     def kacang(self, Jumlah):
         hasil = float(Jumlah) - 24000
         return hasil
+    
+    #Lidwina Triniska Gulo 1164044
+    def labu(self, Jumlah):
+        hasil = float(Jumlah) - 18000
+        return hasil
