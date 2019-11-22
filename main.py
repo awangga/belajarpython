@@ -108,3 +108,7 @@ print("Telor - Kembalian", HargaPasar.Telor(Jumlah))
 #Dicky Alfandra 1184019
 HargaPasar = crot.HargaPasar()
 print("Kentang - Kembalian", HargaPasar.Kentang(Jumlah))
+
+#Heriyanto 1184023
+HargaPasar = crot.HargaPasar()
+print("Melon - Kembalian", HargaPasar.Melon(Jumlah))
