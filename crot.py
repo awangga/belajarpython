@@ -89,3 +89,9 @@ class HargaPasar :
     def kiwi(self, Jumlah):
         hasil = float(Jumlah) - 40000
         return hasil
+    
+        #John Kevin Giraldi (1184049)
+    def Pare(self, Jumlah):
+        hasil = float(Jumlah) - 25000
+        return hasil
+    
