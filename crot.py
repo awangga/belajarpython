@@ -9,3 +9,8 @@ class HargaPasar :
     def Cabe(self, Jumlah):
         hasil = float(Jumlah) - 40000
         return hasil
+
+        #Murnia Lestari (1184006)
+    def BawangPutih(self, Jumlah):
+        hasil = float(Jumlah) - 52000
+        return hasil
