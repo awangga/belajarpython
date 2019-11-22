@@ -143,3 +143,7 @@ print("tempe - Kembalian", HargaPasar.tempe(Jumlah))
 HargaPasar = crot.HargaPasar()
 print("kecambah - Kembalian", HargaPasar.kecambah(Jumlah))
 
+#Dyah Ayu Anandra 1184098
+HargaPasar = crot.HargaPasar()
+print("selada - Kembalian", HargaPasar.selada(Jumlah))
+
