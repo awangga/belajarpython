@@ -1,5 +1,6 @@
 import kelas
 idr = 10000000
+uang = 10000000
 
 
 #idam fadilah - 1184063
@@ -68,6 +69,10 @@ print("Iran - Rial",mataUang.Iran_Rial(idr))
 #Andi Nur Utari - 1184039
 MataUang = kelas.MataUang()
 print("Bahrain - Dinar",MataUang.Bahrain_dinar(idr))
+
+#Jenly Ramdan 1184109
+mataUang = kelas.MataUang()
+print("Negara Burkina(Franc) = ",mataUang.BurkinaFranc(uang))
 
 
 ###### kelas 2C
