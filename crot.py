@@ -115,4 +115,7 @@ class HargaPasar :
         hasil= float(Jumlah) - 28000
         return hasil
     
-    
+    #Alvian Daniel Sinaga 1184077
+    def Kentang(self, Jumlah):
+        hasil= float(Jumlah) - 77000
+        return hasil
