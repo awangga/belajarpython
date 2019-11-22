@@ -82,5 +82,9 @@ print("Korsel - Won",MataUang.Korsel_Won(idr))
 ###### kelas 2C
 
 import crot
+Jumlah = 100000
 
 
+#Ariq Rafi Kusumah 1184076
+HargaPasar = crot.HargaPasar()
+print("Tomat - Kembalian",HargaPasar.Tomat(Jumlah))
