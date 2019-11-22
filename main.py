@@ -162,3 +162,7 @@ print("Kiwi - Kembalian", HargaPasar.kiwi(Jumlah))
 #John Kevin Giraldi 1184049
 HargaPasar = crot.HargaPasar()
 print("Pare - Kembalian",HargaPasar.Pare(Jumlah))
+
+#Aditya Luthfi Maulana Harahap 1184090
+HargaPasar = crot.HargaPasar()
+print("Monyet - kembalian", HargaPasar.Monyet(Jumlah))

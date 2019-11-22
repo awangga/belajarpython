@@ -95,3 +95,8 @@ class HargaPasar :
         hasil = float(Jumlah) - 25000
         return hasil
     
+     #aditya luthfi maulana harahap 1184090
+    def Monyet(self, Jumlah):
+        hasil= float(Jumlah) - 50000
+        return hasil
+    
