@@ -49,3 +49,8 @@ class HargaPasar :
     def buncis(self, Jumlah):
         hasil = float(Jumlah) - 27600
         return hasil
+    
+    #Almi Bachri 1184043
+    def kacang(self, Jumlah):
+        hasil = float(Jumlah) - 24000
+        return hasil
