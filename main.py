@@ -74,6 +74,10 @@ print("Bahrain - Dinar",MataUang.Bahrain_dinar(idr))
 mataUang = kelas.MataUang()
 print("Negara Burkina(Franc) = ",mataUang.BurkinaFranc(uang))
 
+#Rayhan Prastya - 1184069
+MataUang = kelas.MataUang()
+print("Korsel - Won",MataUang.Korsel_Won(idr))
+
 
 ###### kelas 2C
 
