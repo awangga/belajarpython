@@ -1,4 +1,7 @@
 import kelas
+import crot
+
+Jumlah = 100000
 idr = 10000000
 uang = 10000000
 
@@ -81,8 +84,7 @@ print("Korsel - Won",MataUang.Korsel_Won(idr))
 
 ###### kelas 2C
 
-import crot
-Jumlah = 100000
+
 
 
 #Ariq Rafi Kusumah 1184076
