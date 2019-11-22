@@ -29,3 +29,8 @@ class HargaPasar :
     def Kentang(self, Jumlah):
         hasil = float(Jumlah) - 39890
         return hasil
+    
+        #Heriyanto (1184023)
+    def Melon(self, Jumlah):
+        hasil = float(Jumlah) - 25000
+        return hasil
