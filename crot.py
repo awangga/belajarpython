@@ -74,3 +74,8 @@ class HargaPasar :
     def selada(self, Jumlah):
         hasil = float(Jumlah) - 4000
         return hasil
+    
+    #Dimas Aqila Maulana 1184081
+    def melinjo(self, Jumlah):
+        hasil = float(Jumlah) - 20000
+        return hasil
