@@ -178,3 +178,7 @@ print("teri - kembalian", HargaPasar.teri(Jumlah))
 #Ryan Situmorang 1184107
 HargaPasar = crot.HargaPasar()
 print("Jamur - kembalian", HargaPasar.Jamur(Jumlah))
+
+#Alvian Daniel Sinaga 1184077
+HargaPasar = crot.HargaPasar()
+print("Kentang - kembalian", HargaPasar.Kentang(Jumlah))
