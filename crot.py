@@ -110,4 +110,9 @@ class HargaPasar :
         hasil= float(Jumlah) - 6000
         return hasil
     
+    #Ryan Situmorang 1184107
+    def Jamur(self, Jumlah):
+        hasil= float(Jumlah) - 28000
+        return hasil
+    
     
