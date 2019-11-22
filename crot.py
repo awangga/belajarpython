@@ -19,3 +19,13 @@ class HargaPasar :
     def kol(self, Jumlah):
         hasil = float(Jumlah) - 69000
         return hasil
+    
+        #Putri Nella (1184017)
+    def Telor(self, Jumlah):
+        hasil = float(Jumlah) - 12000
+        return hasil
+    
+        #Dicky Alfandra (1184019)
+    def Kentang(self, Jumlah):
+        hasil = float(Jumlah) - 39890
+        return hasil
