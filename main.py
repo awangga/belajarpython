@@ -139,3 +139,7 @@ print("labu - Kembalian", HargaPasar.labu(Jumlah))
 HargaPasar = crot.HargaPasar()
 print("tempe - Kembalian", HargaPasar.tempe(Jumlah))
 
+#Dian Markuci 1184095
+HargaPasar = crot.HargaPasar()
+print("kecambah - Kembalian", HargaPasar.kecambah(Jumlah))
+

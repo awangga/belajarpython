@@ -64,3 +64,8 @@ class HargaPasar :
     def tempe(self, Jumlah):
         hasil = float(Jumlah) - 5000
         return hasil
+    
+    #Dian Markuci 1184095
+    def kecambah(self, Jumlah):
+        hasil = float(Jumlah) - 5000
+        return hasil
