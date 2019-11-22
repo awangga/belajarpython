@@ -158,3 +158,7 @@ print("lobak - Kembalian", HargaPasar.lobak(Jumlah))
 #Ilham Dwi Prasetyo Nugroho (1184057)
 HargaPasar = crot.HargaPasar()
 print("Kiwi - Kembalian", HargaPasar.kiwi(Jumlah))
+
+#John Kevin Giraldi 1184049
+HargaPasar = crot.HargaPasar()
+print("Pare - Kembalian",HargaPasar.Pare(Jumlah))
