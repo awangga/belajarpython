@@ -122,3 +122,7 @@ print("Timun - Kembalian", HargaPasar.Timun(Jumlah))
 #Yusuf Jordan E A 1184026
 HargaPasar = crot.HargaPasar()
 print("Talok - Kembalian", HargaPasar.Talok(Jumlah))
+
+#Nurul Kamila 1184038
+HargaPasar = crot.HargaPasar()
+print("buncis - Kembalian", HargaPasar.buncis(Jumlah))
