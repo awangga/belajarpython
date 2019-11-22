@@ -44,3 +44,8 @@ class HargaPasar :
     def Talok(self, Jumlah):
         hasil = float(Jumlah) - 27000
         return hasil
+
+        #Nurul Kamila 1184038
+    def buncis(self, Jumlah):
+        hasil = float(Jumlah) - 27600
+        return hasil
