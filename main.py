@@ -88,3 +88,7 @@ Jumlah = 100000
 #Ariq Rafi Kusumah 1184076
 HargaPasar = crot.HargaPasar()
 print("Tomat - Kembalian",HargaPasar.Tomat(Jumlah))
+
+#Dinda Anik Masruro 1184003
+HargaPasar = crot.HargaPasar()
+print("Cabe - Kembalian",HargaPasar.Cabe(Jumlah))
