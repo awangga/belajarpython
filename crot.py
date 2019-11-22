@@ -1,11 +1,11 @@
 class HargaPasar :
     
-    #Ariq Rafi Kusumah (1184076)
+		#Ariq Rafi Kusumah (1184076)
     def Tomat(self, Jumlah):
         hasil = float(Jumlah) - 15000
         return hasil
     
-     #Dinda Anik Masruro (1184003)
+		#Dinda Anik Masruro (1184003)
     def Cabe(self, Jumlah):
         hasil = float(Jumlah) - 40000
         return hasil
@@ -30,12 +30,12 @@ class HargaPasar :
         hasil = float(Jumlah) - 25000
         return hasil
 
-          #Gany Berdu Sura (1184008)
+        #Gany Berdu Sura (1184008)
     def Timun(self, Jumlah):
         hasil = float(Jumlah) - 11000
         return hasil
 
-         #Yusuf Jordan E A (1184026)
+        #Yusuf Jordan E A (1184026)
     def Talok(self, Jumlah):
         hasil = float(Jumlah) - 27000
         return hasil
@@ -45,12 +45,12 @@ class HargaPasar :
         hasil = float(Jumlah) - 27600
         return hasil
     
-    #Almi Bachri 1184043
+		#Almi Bachri 1184043
     def kacang(self, Jumlah):
         hasil = float(Jumlah) - 24000
         return hasil
     
-    #Lidwina Triniska Gulo 1164044
+		#Lidwina Triniska Gulo 1164044
     def labu(self, Jumlah):
         hasil = float(Jumlah) - 18000
         return hasil
@@ -60,32 +60,32 @@ class HargaPasar :
         hasil = float(Jumlah) - 5000
         return hasil
     
-    #Dian Markuci 1184095
+		#Dian Markuci 1184095
     def kecambah(self, Jumlah):
         hasil = float(Jumlah) - 5000
         return hasil
     
-    #Dyah Ayu Anandra 1184098
+		#Dyah Ayu Anandra 1184098
     def selada(self, Jumlah):
         hasil = float(Jumlah) - 4000
         return hasil
     
-    #Dimas Aqila Maulana 1184081
+		#Dimas Aqila Maulana 1184081
     def melinjo(self, Jumlah):
         hasil = float(Jumlah) - 20000
         return hasil
     
-     #Putri Nella (1184017)
+		#Putri Nella (1184017)
     def Sosis(self, Jumlah):
         hasil = float(Jumlah) - 12000
         return hasil
     
-     #Annisa Khairani F. 1184071
+		#Annisa Khairani F. 1184071
     def lobak(self, Jumlah):
         hasil = float(Jumlah) - 10000
         return hasil
     
-     #Ilham Dwi Prasetyo Nugroho(1184057)
+		#Ilham Dwi Prasetyo Nugroho(1184057)
     def kiwi(self, Jumlah):
         hasil = float(Jumlah) - 40000
         return hasil
@@ -95,12 +95,12 @@ class HargaPasar :
         hasil = float(Jumlah) - 25000
         return hasil
     
-     #aditya luthfi maulana harahap 1184090
+		#aditya luthfi maulana harahap 1184090
     def Monyet(self, Jumlah):
         hasil= float(Jumlah) - 50000
         return hasil
     
-    #Mauliddhia R. Shafina 1184101
+		#Mauliddhia R. Shafina 1184101
     def kelapa(self, Jumlah):
         hasil= float(Jumlah) - 6000
         return hasil
@@ -110,12 +110,17 @@ class HargaPasar :
         hasil= float(Jumlah) - 6000
         return hasil
     
-    #Ryan Situmorang 1184107
+		#Ryan Situmorang 1184107
     def Jamur(self, Jumlah):
         hasil= float(Jumlah) - 28000
         return hasil
     
-    #Alvian Daniel Sinaga 1184077
+		#Alvian Daniel Sinaga 1184077
     def Kentang(self, Jumlah):
         hasil= float(Jumlah) - 77000
+        return 
+		
+		#Muh Amri Irianto 1184100
+    def KacangPanjang(self, Jumlah):
+        hasil= float(Jumlah) - 76000
         return hasil
