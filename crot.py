@@ -124,3 +124,8 @@ class HargaPasar :
     def KacangPanjang(self, Jumlah):
         hasil= float(Jumlah) - 76000
         return hasil
+    
+    	#Nuha Hanifatul Khonsa' 1184085
+    def Paprika(self, Jumlah):
+        hasil= float(Jumlah) - 25000
+        return hasil
