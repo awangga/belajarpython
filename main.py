@@ -190,3 +190,7 @@ print("KacangPanjang - kembalian", HargaPasar.KacangPanjang(Jumlah))
 #Nuha Hanifatul Khonsa' 1184085
 HargaPasar = crot.HargaPasar()
 print("Paprika- kembalian", HargaPasar.Paprika(Jumlah))
+
+#Muhammad Raihan Bariz 1184084
+HargaPasar = crot.HargaPasar()
+print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
