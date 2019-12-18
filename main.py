@@ -5,9 +5,9 @@
 
 
 #absen2
-
-
-
+from kelas_2b import rey
+run = rey.rayhan()
+run.plane()
 
 
 #absen3
@@ -42,8 +42,8 @@ print (hanif)
 
 
 #absen8
-
-
+from kelas_2b import arahman
+arahman = arahman.Jadwal()
 
 
 
@@ -59,10 +59,10 @@ print (hanif)
 
 
 #absen11
-
-
-
-
+from kelas_2b import dyning
+hari = "senin"
+cekjadwal = dyning.Dyning(hari)
+cekjadwal.DyningAidaBatrishya()
 
 #absen12
 
@@ -77,15 +77,15 @@ print (hanif)
 
 
 #absen14
-
-
-
+from kelas_2b import tarippu
+run = tarippu.Tari()
+run.main()
 
 
 #absen15
-
-
-
+from kelas_2b import akil
+run = akil.AkilMunawwar()
+run.rekursi()
 
 
 #absen16
@@ -107,9 +107,9 @@ run.run()
 
 
 #absen19
-
-
-
+from kelas_2b import je2
+waw = je2.jefri()
+waw.sort()
 
 
 #absen20
@@ -125,15 +125,15 @@ run.run()
 
 
 #absen22
-
-
-
+from kelas_2b import idamfadilah
+d = idamfadilah.idamfadilah()
+d.giveaway(d.angka())
 
 
 #absen23
-
-
-
+from kelas_2b.etika import EtikaKL
+etika = EtikaKL()
+etika.Kumpulan()
 
 
 #absen24
@@ -143,10 +143,10 @@ run.run()
 
 
 #absen25
-
-
-
-
+from kelas_2b import farhan
+stue = farhan.farhan()
+t = stue.temp
+print(t)
 
 #absen26
 
@@ -173,9 +173,9 @@ cek.SyabrienaPutriVeriane("1184094")
 
 
 #absen30
-
-
-
+from kelas_2b import Faris
+test = Faris.farisIhsan()
+test.fmi(2000)
 
 
 #absen31
@@ -197,9 +197,9 @@ cek.SyabrienaPutriVeriane("1184094")
 
 
 #absen34
-
-
-
+from kelas_2b import jenly
+jenly = jenly.Tadi_salah_pak_saya_kira_boleh_pake_inputan_user()
+jenly.Penjumlahan_yang_terencana()
 
 
 import kelas
