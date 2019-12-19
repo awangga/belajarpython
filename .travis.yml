@@ -1,4 +1,4 @@
-sudo: required
+sudo: enabled
 language: python
 script: python main.py
 addons:
