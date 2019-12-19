@@ -6,7 +6,7 @@ class Start(object):
     def OpenBrowser(self):
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
-        self.driver = webdriver.Chrome("/home/travis/virtualenv/python3.6.7/bin/chromedriver", chrome_options=options)
+        self.driver = webdriver.Chrome(chrome_options=options)
 
         with open('kelas_2b/dinda.csv', 'r') as csvfile:
             plot = csv.reader(csvfile, delimiter=',')

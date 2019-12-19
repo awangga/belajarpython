@@ -17,9 +17,8 @@ class TriAngga(object):
             for row in read:
                 if row[0] == self.keyword:
                     options = webdriver.ChromeOptions()
-                    options.add_argument("--no-sandbox")
                     options.add_argument("--headless")
-                    driver = webdriver.Chrome('/home/travis/virtualenv/python3.6.7/bin/chromedriver', chrome_options=options)
+                    driver = webdriver.Chrome(chrome_options=options)
                     driver.get(row[1])
                     sleep(1)
                     driver.close()
