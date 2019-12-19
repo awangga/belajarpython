@@ -5,4 +5,4 @@ addons:
   chrome: stable
 before_script:
   - wget https://chromedriver.storage.googleapis.com/79.0.3945.36/chromedriver_linux64.zip
-  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.6.7/bin/
+  - sudo unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.6.7/bin/
