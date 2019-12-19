@@ -16,7 +16,13 @@ class TriAngga(object):
             read = csv.reader(toto_wekwek, delimiter=',')
             for row in read:
                 if row[0] == self.keyword:
-                    driver = webdriver.Chrome()
+                    options = webdriver.ChromeOptions()
+                    options.binary_location = '/usr/bin/chromium-browser'
+                    options.add_argument("--no-sandbox")
+                    options.add_argument("--no-default-browser-check")
+                    options.add_argument("--no-first-run")
+                    options.add_argument("--disable-default-apps")
+                    driver = webdriver.Chrome('/home/travis/virtualenv/python3.6.7/chromedriver',chrome_options=options)
                     driver.get(row[1])
-                    sleep(2)
+                    sleep(1)
                     driver.close()
