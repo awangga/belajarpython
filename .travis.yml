@@ -5,7 +5,7 @@ addons:
   chrome: stable
 before_script:
   - wget https://chromedriver.storage.googleapis.com/79.0.3945.36/chromedriver_linux64.zip
-  - unzip chromedriver_linux64.zip -d /usr/bin
+  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.6.7/bin/
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - npm i -g npm@^3
