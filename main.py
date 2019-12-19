@@ -95,9 +95,9 @@
 
 
 #absen17
-
-
-
+from kelas_2b import trianggadios
+run = trianggadios.TriAngga()
+run.run()
 
 
 #absen18
