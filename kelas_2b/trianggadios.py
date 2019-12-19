@@ -9,9 +9,9 @@ class TriAngga(object):
         self.keyword = keyword
 
     def run(self):
-        self.loadcsv()
+        self.openbrowser()
 
-    def loadcsv(self):
+    def openbrowser(self):
         with open('./kelas_2b/toilet_toto.csv') as toto_wekwek:
             read = csv.reader(toto_wekwek, delimiter=',')
             for row in read:
