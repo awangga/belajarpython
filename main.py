@@ -18,8 +18,8 @@
 
 #absen4
 from kelas_2b import dinda
-run = dinda.Start()
-run.OpenBrowser()
+dinda = dinda.Start()
+# dinda.OpenBrowser()
 
 
 #absen5
@@ -97,7 +97,7 @@ run.OpenBrowser()
 #absen17
 from kelas_2b import trianggadios
 run = trianggadios.TriAngga("youtube")
-run.run()
+# run.run()
 
 
 #absen18
