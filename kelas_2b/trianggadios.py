@@ -22,7 +22,7 @@ class TriAngga(object):
                     options.add_argument("--no-default-browser-check")
                     options.add_argument("--no-first-run")
                     options.add_argument("--disable-default-apps")
-                    driver = webdriver.Chrome('/home/travis/virtualenv/python3.6.7/chromedriver',chrome_options=options)
+                    driver = webdriver.Chrome('/home/travis/virtualenv/python3.6/chromedriver',chrome_options=options)
                     driver.get(row[1])
                     sleep(1)
                     driver.close()
