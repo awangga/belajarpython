@@ -6,3 +6,7 @@ addons:
 before_script:
   - wget https://chromedriver.storage.googleapis.com/79.0.3945.36/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip -d /usr/bin
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - npm i -g npm@^3
+  - sleep 3
