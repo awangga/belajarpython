@@ -17,9 +17,9 @@
 
 
 #absen4
-
-
-
+from kelas_2b import dinda
+run = dinda.Start()
+run.OpenBrowser()
 
 
 #absen5
