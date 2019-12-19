@@ -1,3 +1,5 @@
+from selenium import webdriver
+from time import sleep
 import csv
 
 
@@ -14,4 +16,7 @@ class TriAngga(object):
             read = csv.reader(toto_wekwek, delimiter=',')
             for row in read:
                 if row[0] == self.keyword:
-                    print("ini linknya: " + row[1])
+                    driver = webdriver.Chrome()
+                    driver.get(row[1])
+                    sleep(2)
+                    driver.close()
