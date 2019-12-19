@@ -27,7 +27,7 @@ Untuk deadline vidio sudah terupload dan di share di wa grup kelas adalah esok h
 # Kuis Pemrograman Part 2
 Kuis kali ini ada dua soal:
 1. Buat **Class** dan **Method** dengan nama file **bebas**, file harus berada dalam folder kelas masing-masing, dan harus menggunakan perintah **import**. **NB : LOGIKA, dan METHOD TIDAK BOLEH SAMA!!!**
-2. Harus menggunakan module **CSV**
+2. Harus mengakses file **CSV**
 2. instansiasi dan gunakan method tersebut pada file main.py dengan inputan variabel yang dideklarasikan (bukan inputan user)
 
 Jangka waktu pengerjaan dari 
