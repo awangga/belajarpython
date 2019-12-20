@@ -1,8 +1,7 @@
 Status Kode Program : [![Build Status](https://travis-ci.com/awangga/belajarpython.svg?branch=master)](https://travis-ci.com/awangga/belajarpython)
 
-**Pemakaian Selenium ChromeDriver**
-1. path chromedriver = /home/travis/virtualenv/python3.6.7/bin/chromedriver
-2. browser harus mode **headless**
+**Jika Ada yang Memakai Selenium (chrome) Pemakaian Selenium ChromeDriver**
+1. browser harus mode **headless**
 
 passing : Bebas Error(hijau)
 
