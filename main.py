@@ -114,9 +114,9 @@ waw.sort()
 
 
 #absen20
-
-
-
+from kelas_2b import veldi
+data = veldi.veldi()
+data.veldi()
 
 
 #absen21
