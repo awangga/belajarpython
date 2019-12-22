@@ -173,9 +173,9 @@ cek.SyabrienaPutriVeriane("1184094")
 
 
 #absen30
-
-
-
+from kelas_2b import Faris
+test = Faris.farisIhsan()
+test.fmi(2000)
 
 
 #absen31
