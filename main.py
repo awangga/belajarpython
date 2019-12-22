@@ -107,9 +107,9 @@ run.run()
 
 
 #absen19
-
-
-
+from kelas_2b import je2
+waw = je2.jefri()
+waw.sort()
 
 
 #absen20
