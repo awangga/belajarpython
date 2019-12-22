@@ -5,9 +5,9 @@
 
 
 #absen2
-
-
-
+from kelas_2b import rey
+run = rey.rayhan()
+run.plane()
 
 
 #absen3
