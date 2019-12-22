@@ -5,9 +5,9 @@
 
 
 #absen2
-
-
-
+from kelas_2b import rey
+play = rey.rayhan
+run.play()
 
 
 #absen3
