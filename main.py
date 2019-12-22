@@ -125,9 +125,9 @@ waw.sort()
 
 
 #absen22
-
-
-
+from kelas_2b import idamfadilah
+d = idamfadilah.idamfadilah()
+d.giveaway(d.angka())
 
 
 #absen23
