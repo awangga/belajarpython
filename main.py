@@ -23,9 +23,9 @@ dinda.OpenBrowser()
 
 
 #absen5
-
-
-
+from kelas_2b import agung
+a = agung.Tawa()
+a.Color()
 
 
 #absen6
