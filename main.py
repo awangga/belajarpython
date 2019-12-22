@@ -197,9 +197,9 @@ cek.SyabrienaPutriVeriane("1184094")
 
 
 #absen34
-
-
-
+from kelas_2b import jenly
+jenly = jenly.Tadi_salah_pak_saya_kira_boleh_pake_inputan_user()
+jenly.Penjumlahan_yang_terencana()
 
 
 import kelas
