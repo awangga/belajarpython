@@ -91,9 +91,9 @@ run.rekursi()
 
 
 #absen16
-
-
-
+from kelas_2b import sharif
+run = sharif.sharif()
+run.rokok()
 
 
 #absen17
