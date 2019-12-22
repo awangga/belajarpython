@@ -83,9 +83,9 @@ dinda.OpenBrowser()
 
 
 #absen15
-
-
-
+from kelas_2b import akil
+run = akil.AkilMunawwar()
+run.rekursi()
 
 
 #absen16
