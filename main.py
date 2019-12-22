@@ -1,7 +1,7 @@
 #absen1
-
-
-
+from kelas_2b import puja
+tampil = puja.Puja()
+tampil.SitiNPK()
 
 
 #absen2
