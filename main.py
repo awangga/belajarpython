@@ -143,10 +143,10 @@ run.run()
 
 
 #absen25
-
-
-
-
+from kelas_2b import farhan
+stue = farhan.farhan()
+t = stue.temp
+print(t)
 
 #absen26
 
