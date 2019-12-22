@@ -33,8 +33,9 @@ Kuis kali ini ada dua soal:
 2. Harus mengakses file **CSV**
 2. instansiasi dan gunakan method tersebut pada file main.py dengan inputan variabel yang dideklarasikan (bukan inputan user)
 
-Jangka waktu pengerjaan dari 
-kelas 2B : 19 Desember 2019 s/d 22 Desember 2019 Pukul 23.59 
+Jangka waktu pengerjaan dari:
+kelas 2B : 19 Desember 2019 s/d 22 Desember 2019 Pukul 23.59
+kelas 2C : 20 Desember 2019 s/d 23 Desember 2019 Pukul 23.59
 
 
 dikumpulkan dengan cara pull request. Hal-hal yang harus dipenuhi sebagai syarat pull request diterima:
