@@ -119,7 +119,8 @@ waw.sort()
 
 
 #absen21
-
+from kelas_2b import wahyua
+wahyua= wahyua.Umur
 
 
 
