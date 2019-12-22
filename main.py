@@ -157,9 +157,9 @@ print(t)
 
 
 #absen27
-
-
-
+from kelas_2b import hanifah
+data = hanifah.hanifah()
+data.ganjilgenap()
 
 
 #absen28
