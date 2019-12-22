@@ -29,10 +29,9 @@ a.Color()
 
 
 #absen6
-
-
-
-
+from kelas_2b import naomi
+naomi = naomi.daftar()
+naomi.siswa
 
 
 #absen7
