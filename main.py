@@ -101,10 +101,10 @@ run.run()
 
 
 #absen18
-
-
-
-
+from kelas_2b import alifia
+nama_mobil = "suzuki ertiga"
+cekHarga= alifia.Alifia_Zahra(nama_mobil)
+cekHarga.Alifia()
 
 #absen19
 from kelas_2b import je2
