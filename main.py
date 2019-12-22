@@ -42,8 +42,8 @@ dinda.OpenBrowser()
 
 
 #absen8
-
-
+from kelas_2b import arahman
+arahman = arahman.Jadwal()
 
 
 
