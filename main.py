@@ -131,9 +131,9 @@ waw.sort()
 
 
 #absen23
-
-
-
+from kelas_2b.etika import EtikaKL
+etika = EtikaKL()
+etika.Kumpulan()
 
 
 #absen24
