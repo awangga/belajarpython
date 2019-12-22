@@ -9,21 +9,15 @@ import csv
 
 class Tawa(object):
     def Color(self):
-        with open('agung.csv') as csvfile:
+        with open('./kelas_2b/agung.csv') as csvfile:
             readCSV = csv.reader(csvfile, delimiter=',')
-            dates = []
-            colors = []
+            bulann = []
+            warnaa = []
             for row in readCSV:
-                color = row[3]
-                date = row[0]
+                warna = row[1]
+                bulan = row[0]
+                bulann.append(bulan)
+                warnaa.append(warna)
             
-                dates.append(date)
-                colors.append(color)
-            
-            print(dates)
-            print(colors)
-            
-            whatColor = input('What color do you wish to know the date of?:')
-            coldex = colors.index(whatColor)
-            theDate = dates[coldex]
-            print('The date of',whatColor,'is:',theDate)
+            print(bulann)
+            print(warnaa)
