@@ -139,9 +139,9 @@ etika.Kumpulan()
 
 
 #absen24
-
-
-
+from kelas_2b import rayhanprastya
+ujang = rayhanprastya.rayprastya()
+ujang.convert()
 
 
 #absen25
