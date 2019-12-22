@@ -6,10 +6,10 @@
 
 #absen2
 from kelas_2b import rey
-play = rey.rayhan
-play.plane()
+run = rey.rayhan()
+run.plane()
 
-'''
+
 #absen3
 
 
