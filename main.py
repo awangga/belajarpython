@@ -77,9 +77,9 @@ dinda.OpenBrowser()
 
 
 #absen14
-
-
-
+from kelas_2b import tarippu
+run = tarippu.Tari()
+run.main()
 
 
 #absen15
