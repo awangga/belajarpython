@@ -167,9 +167,9 @@ run.run()
 
 
 #absen29
-
-
-
+from kelas_2b import Syabriena
+cek = Syabriena.Syabriena()
+cek.SyabrienaPutriVeriane("1184094")
 
 
 #absen30
