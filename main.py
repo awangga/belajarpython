@@ -437,9 +437,9 @@ run.karyawanterbaik
 
 
 #absen7
-
-
-
+from kelas_2c.heriy import Anime
+heriy = Anime()
+print(heriy)
 
 
 #absen8
@@ -452,9 +452,6 @@ ceksifat.tampil()
 from kelas_2c import rizalramadhan
 gofood=rizalramadhan.rizalramadhan()
 gofood.menu(gofood.pesan())
-
-
-
 
 
 #absen10
