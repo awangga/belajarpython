@@ -577,9 +577,9 @@ ceknpm.function()
 
 
 #absen29
-
-
-
+from kelas_2c import ryan
+ryan = ryan.hitung()
+ryan.kali()
 
 
 #absen30
