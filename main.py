@@ -449,7 +449,9 @@ ceksifat.tampil()
 
 
 #absen9
-
+from kelas_2c import rizalramadhan
+gofood=rizalramadhan.rizalramadhan()
+gofood.menu(gofood.pesan())
 
 
 
