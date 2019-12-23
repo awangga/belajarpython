@@ -421,7 +421,9 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 
 
 #absen4
-
+from kelas_2c import helmiazhar
+helmiazhar = helmiazhar.helmi()
+helmiazhar.stok()
 
 
 
