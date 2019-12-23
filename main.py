@@ -35,9 +35,9 @@ naomi.siswa
 
 
 #absen7
-from kelas_2b import hanif
-hanif = hanif.HanifAmrullah
-print (hanif)
+
+
+
 
 
 #absen8
