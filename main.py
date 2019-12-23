@@ -494,7 +494,11 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 
 #absen16
 
+from kelas_2c import Ariq
 
+absen = "satu"
+ceknpm = Ariq.Ariq(absen)
+ceknpm.function()
 
 
 
