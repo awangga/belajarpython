@@ -438,9 +438,9 @@ cekharga = nella.nella(paket)
 cekharga.PutriNella()
 
 #absen6
-
-
-
+from kelas_2c import dicky
+run = dicky.dicky()
+run.karyawanterbaik
 
 
 
