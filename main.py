@@ -467,9 +467,9 @@ data.ganjilgenap()
 
 
 #absen12
-
-
-
+from kelas_2c import almi
+customers = almi.cs()
+customers.read()
 
 
 #absen13
