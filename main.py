@@ -548,9 +548,9 @@ nomor = "satu"
 cekgaji = Adit.Adit(nomor)
 cekgaji.function()
 #absen25
-
-
-
+from kelas_2c import Diann
+Diann = Diann.Diann()
+Diann.Nama()
 
 
 #absen26
