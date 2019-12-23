@@ -462,10 +462,10 @@ cekharga.PutriNella()
 
 
 #absen10
-
-
-
-
+from kelas_2c import nurul
+hari = "senin"
+cekruangan = nurul.nurul(hari)
+cekruangan.NurulKamila()
 
 #absen11
 
