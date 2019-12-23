@@ -546,7 +546,11 @@ lanjut.uang()
 
 
 #absen24
+from kelas_2c import Adit
 
+nomor = "satu"
+cekgaji = Adit.Adit(nomor)
+cekgaji.function()
 
 
 
