@@ -448,8 +448,9 @@ helmiazhar.stok()
 
 
 #absen8
-
-
+from kelas_2c import jordan
+ceksifat = jordan.Jordan()
+ceksifat.tampil()
 
 
 
