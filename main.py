@@ -511,6 +511,10 @@ ceknpm.function()
 
 #absen18
 
+from kelas_2c import Annisa
+motor = "N-Max"
+cekpenjualan= Annisa.Annisa_Khairani(motor)
+cekpenjualan.Annisa()
 
 
 
