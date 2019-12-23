@@ -429,10 +429,10 @@ helmiazhar.stok()
 
 
 #absen5
-
-
-
-
+from kelas_2c import nella
+paket = "paketA"
+cekharga = nella.nella(paket)
+cekharga.PutriNella()
 
 #absen6
 
