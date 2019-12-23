@@ -424,8 +424,6 @@ helmiazhar = helmiazhar.helmi()
 helmiazhar.stok()
 
 
-
-
 #absen5
 
 
@@ -436,7 +434,6 @@ helmiazhar.stok()
 from kelas_2c import dicky
 run = dicky.dicky()
 run.karyawanterbaik
-
 
 
 #absen7
@@ -451,8 +448,9 @@ ceksifat = jordan.Jordan()
 ceksifat.tampil()
 
 
-
 #absen9
+
+
 
 
 
@@ -476,11 +474,11 @@ ceksifat.tampil()
 
 
 #absen13
+from kelas_2c import Kevin
 
-
-
-
-
+kode = "tp"
+cekharga = Kevin.Kevin(kode)
+cekharga.function()
 #absen14
 
 
@@ -494,15 +492,11 @@ ceksifat.tampil()
 
 
 #absen16
-
 from kelas_2c import Ariq
 
 absen = "satu"
 ceknpm = Ariq.Ariq(absen)
 ceknpm.function()
-
-
-
 #absen17
 
 
@@ -551,10 +545,6 @@ from kelas_2c import Adit
 nomor = "satu"
 cekgaji = Adit.Adit(nomor)
 cekgaji.function()
-
-
-
-
 #absen25
 
 
