@@ -435,9 +435,9 @@ helmiazhar.stok()
 
 
 #absen6
-
-
-
+from kelas_2c import dicky
+run = dicky.dicky()
+run.karyawanterbaik
 
 
 

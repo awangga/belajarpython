@@ -1,0 +1,13 @@
+nama,divisi,bulan
+Dicky,IT,September
+Mansur,Marketing,Januari
+Romi,Accounting,Maret
+Susi,Secretary,April
+Reno,SPV,Mei
+Arlan,Securtity,July
+Loan,OB,Juni
+Marsel,Sales,February
+Tomi,IT,Agustus
+Granger,Marketing,Oktober
+Retno,OB,November
+Masha,Sales,Desember
