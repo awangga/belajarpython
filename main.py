@@ -523,11 +523,11 @@ ceknpm.function()
 
 
 #absen20
-
-
-
-
-
+from kelas_2c import alvian
+lanjut = alvian.alvian()
+lanjut.nomor()
+lanjut.nama()
+lanjut.uang()
 #absen21
 
 
