@@ -60,10 +60,10 @@ run.werehousing()
 
 
 #absen11
-from kelas_2b import dyning
-hari = "senin"
-cekjadwal = dyning.Dyning(hari)
-cekjadwal.DyningAidaBatrishya()
+
+
+
+
 
 #absen12
 
