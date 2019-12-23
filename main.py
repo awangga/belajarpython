@@ -556,8 +556,8 @@ cekgaji.function()
 
 
 #absen26
-
-
+from kelas_2c import ayu
+ayu = ayu.Bioskop
 
 
 
