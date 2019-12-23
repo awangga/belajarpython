@@ -562,10 +562,10 @@ cekgaji.function()
 
 
 #absen27
-
-
-
-
+from kelas_2c import data
+nama = "Fitri"
+lihatdata = data.Nuha(nama)
+lihatdata.NuhaHanifatul()
 
 #absen28
 from kelas_2c import fina
