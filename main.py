@@ -58,11 +58,11 @@ arahman = arahman.Jadwal()
 
 
 #absen11
-
-
-
-
-
+from kelas_2b import dyning
+hari = "senin"
+kelas = "D4TI2B"
+cekjadwal = dyning.Dyning(hari, kelas)
+cekjadwal.DyningAidaBatrishya()
 #absen12
 
 
