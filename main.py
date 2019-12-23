@@ -133,9 +133,9 @@ d.giveaway(d.angka())
 
 
 #absen23
-from kelas_2b.etika import EtikaKL
-etika = EtikaKL()
-etika.Kumpulan()
+
+
+
 
 
 #absen24
