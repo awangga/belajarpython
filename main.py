@@ -403,7 +403,10 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 
 #kelas_2c
 #absen1
-
+from kelas_2c import dinda
+bulan = "januari"
+cekbiaya = dinda.dinda(bulan)
+cekbiaya.DindaAnik()
 
 
 
