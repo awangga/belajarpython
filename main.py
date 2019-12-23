@@ -407,9 +407,9 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 
 
 #absen2
-
-
-
+from kelas_2c import murnia
+cek = murnia.Mur()
+cek.mur("1184006")
 
 
 #absen3
