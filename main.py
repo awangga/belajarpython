@@ -487,9 +487,9 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 
 
 #absen15
-from kelas_2c import alvian
-lanjut = alvian.alvian()
-lanjut.uang()
+
+
+
 
 
 #absen16
