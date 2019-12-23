@@ -413,9 +413,9 @@ cek.mur("1184006")
 
 
 #absen3
-
-
-
+from kelas_2c import gany
+a = gany.Gany()
+a.Color()
 
 
 #absen4
