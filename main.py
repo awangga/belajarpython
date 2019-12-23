@@ -509,10 +509,6 @@ from kelas_2c import Annisa
 motor = "N-Max"
 cekpenjualan= Annisa.Annisa_Khairani(motor)
 cekpenjualan.Annisa()
-
-
-
-
 #absen19
 
 
@@ -526,9 +522,9 @@ lanjut.nomor()
 lanjut.nama()
 lanjut.uang()
 #absen21
-
-
-
+from kelas_2c import dimas
+ojol = dimas.maulana()
+ojol.ojek()
 
 
 #absen22
