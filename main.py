@@ -413,9 +413,9 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 
 
 #absen3
-
-
-
+from kelas_2c import gany
+a = gany.Gany()
+a.Color()
 
 
 #absen4
