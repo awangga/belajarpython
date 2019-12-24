@@ -131,9 +131,9 @@ d.giveaway(d.angka())
 
 
 #absen23
-
-
-
+from kelas_2b.etika import Hitung
+etika = Hitung()
+etika.Isi()
 
 
 #absen24
