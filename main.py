@@ -354,7 +354,7 @@ d.giveaway(d.angka())
 from kelas_2b.etika import Hitung
 etika = Hitung()
 etika.Isi()
-
+etika.bismillah()
 
 
 
