@@ -254,9 +254,9 @@ run.rokok()
 
 
 #absen17
-#from kelas_2b import trianggadios
-#run = trianggadios.TriAngga("youtube")
-#run.run()
+from kelas_2b import trianggadios
+run = trianggadios.TriAngga("1184047", "youtube")
+run.run()
 
 
 

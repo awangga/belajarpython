@@ -21,6 +21,7 @@ class Dinda(object):
 
     def OpenBrowser(self):
         options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
         self.driver = webdriver.Chrome(chrome_options=options)
 
     def OpenCSV(self):
@@ -76,15 +77,20 @@ class Dinda(object):
         self.connection = sqlite3.connect('./kelas_2b/dinda.db')
         self.cursor = self.connection.cursor()
 
-        self.cursor.execute('CREATE TABLE Bioskop (id INTEGER PRIMARY KEY, Nama_bioskop VARCHAR(100), Kota VARCHAR(100), Mall VARCHAR(100))')
-
+        try:
+            self.cursor.execute('CREATE TABLE Bioskop (id INTEGER PRIMARY KEY, Nama_bioskop VARCHAR(100), Kota VARCHAR(100), Mall VARCHAR(100))')
+        except:
+            print("Tabelnya udah ada!")
     def InsertRecord(self):
-        self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (1, "xxi", "bandung", "btc"))
-        self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (2, "xxi", "bandung", "braga"))
-        self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (3, "xxi", "bandung", "ciwalk"))
-        self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (4, "xxi", "bandung", "empire"))
+        try:
+            self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (1, "xxi", "bandung", "btc"))
+            self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (2, "xxi", "bandung", "braga"))
+            self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (3, "xxi", "bandung", "ciwalk"))
+            self.cursor.execute('INSERT INTO Bioskop VALUES(?, ?, ?, ?)', (4, "xxi", "bandung", "empire"))
 
-        self.connection.commit()
+            self.connection.commit()
+        except:
+            print("Record sudah ada!")
 
     def ShowRecord(self):
         self.cursor.execute('SELECT * FROM Bioskop')
