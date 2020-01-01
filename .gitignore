@@ -5,6 +5,10 @@ __pycache__/
 .idea/
 # C extensions
 *.so
+*.jpg
+*.jpeg
+*.png
+*.db
 
 # Distribution / packaging
 .Python
