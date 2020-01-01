@@ -3,8 +3,6 @@ pandas
 openpyxl
 matplotlib
 request
-sqlite3
-
 
 
 
