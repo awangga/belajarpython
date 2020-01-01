@@ -4,13 +4,43 @@ tampil = puja.Puja()
 tampil.SitiNPK()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen2
 from kelas_2b import rey
 run = rey.rayhan()
 run.plane()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen3
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22,10 +52,30 @@ dinda = dinda.Start()
 dinda.OpenBrowser()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen5
 from kelas_2b import agung
 a = agung.Tawa()
 a.Color()
+
+
+
+
+
+
+
+
+
+
 
 
 #absen6
@@ -34,7 +84,27 @@ naomi = naomi.daftar()
 naomi.siswa
 
 
+
+
+
+
+
+
+
+
+
+
 #absen7
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,12 +116,42 @@ arahman = arahman.Jadwal()
 
 
 
+
+
+
+
+
+
+
+
+
+
 #absen9
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 #absen10
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,7 +163,27 @@ hari = "senin"
 kelas = "D4TI2B"
 cekjadwal = dyning.Dyning(hari, kelas)
 cekjadwal.DyningAidaBatrishya()
+
+
+
+
+
+
+
+
+
+
 #absen12
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,10 +195,30 @@ inal=innal.innalkariem()
 inal.lagu()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen14
 from kelas_2b import tarippu
 run = tarippu.Tari()
 run.main()
+
+
+
+
+
+
+
+
+
+
 
 
 #absen15
@@ -87,10 +227,30 @@ run = akil.AkilMunawwar()
 run.rekursi()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen16
 from kelas_2b import sharif
 run = sharif.sharif()
 run.rokok()
+
+
+
+
+
+
+
+
+
+
 
 
 #absen17
@@ -99,16 +259,46 @@ run = trianggadios.TriAngga("youtube")
 run.run()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen18
 from kelas_2b import alifia
 nama_mobil = "suzuki ertiga"
 cekHarga= alifia.Alifia_Zahra(nama_mobil)
 cekHarga.Alifia()
 
+
+
+
+
+
+
+
+
+
+
 #absen19
 from kelas_2b import je2
 waw = je2.jefri()
 waw.sort()
+
+
+
+
+
+
+
+
+
+
 
 
 #absen20
@@ -117,9 +307,29 @@ data = veldi.veldi()
 data.veldi()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen21
 from kelas_2b import wahyua
 wahyua= wahyua.Umur
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -130,10 +340,30 @@ d = idamfadilah.idamfadilah()
 d.giveaway(d.angka())
 
 
+
+
+
+
+
+
+
+
+
+
 #absen23
 from kelas_2b.etika import Hitung
 etika = Hitung()
 etika.Isi()
+
+
+
+
+
+
+
+
+
+
 
 
 #absen24
@@ -142,13 +372,43 @@ ujang = rayhanprastya.rayprastya()
 ujang.convert()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen25
 from kelas_2b import farhan
 stue = farhan.farhan()
 t = stue.temp
 print(t)
 
+
+
+
+
+
+
+
+
+
+
 #absen26
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -160,7 +420,27 @@ data = hanifah.hanifah()
 data.ganjilgenap()
 
 
+
+
+
+
+
+
+
+
+
+
 #absen28
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -172,13 +452,43 @@ cek = Syabriena.Syabriena()
 cek.SyabrienaPutriVeriane("1184094")
 
 
+
+
+
+
+
+
+
+
+
+
 #absen30
 from kelas_2b import Faris
 test = Faris.farisIhsan()
 test.fmi(2000)
 
 
+
+
+
+
+
+
+
+
+
+
 #absen31
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -190,13 +500,43 @@ test.fmi(2000)
 
 
 
+
+
+
+
+
+
+
+
+
+
 #absen33
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 #absen34
+
+
+
+
+
+
+
+
+
+
 
 
 
