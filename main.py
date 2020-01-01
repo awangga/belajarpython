@@ -48,8 +48,8 @@ run.plane()
 
 #absen4
 from kelas_2b import dinda
-dinda = dinda.Start()
-dinda.OpenBrowser()
+dinda = dinda.Dinda()
+dinda.CrootKeun()
 
 
 
@@ -254,9 +254,9 @@ run.rokok()
 
 
 #absen17
-from kelas_2b import trianggadios
-run = trianggadios.TriAngga("youtube")
-run.run()
+#from kelas_2b import trianggadios
+#run = trianggadios.TriAngga("youtube")
+#run.run()
 
 
 
