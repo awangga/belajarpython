@@ -2,8 +2,7 @@ selenium
 pandas
 openpyxl
 matplotlib
-request
-
+requests
 
 
 
