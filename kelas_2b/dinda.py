@@ -69,9 +69,12 @@ class Dinda(object):
         print(self.response.text)
 
     def PrintDataAPI(self):
-        data = self.response.json()
-        for img in data['contextWrites']['to']:
-            print(img['image'], img['caption'])
+        try:
+            data = self.response.json()
+            for img in data['contextWrites']['to']:
+                print(img['image'], img['caption'])
+        except:
+            print("Limit Data!")
 
     def CobaDatabase(self):
         self.connection = sqlite3.connect('./kelas_2b/dinda.db')
