@@ -1,0 +1,3 @@
+name,department,bulan lahir
+Ahmad Agung,Accounting,November
+Tawakkal,IT,March
