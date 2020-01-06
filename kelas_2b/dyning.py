@@ -26,7 +26,7 @@ class Dyning(object):
         
 
     def jurusan(self):
-        if len(self.npm)/2 == 3:
+        if len(self.npm)/2 == 3.5:
             try:
                 if self.npm[0] == "1":
                     print("teknik informatika")
@@ -36,10 +36,10 @@ class Dyning(object):
                     print("manajemen bisnis")
                 elif self.npm[0] == "4":
                     print("logistik bisnis")
-                else:
-                    print("coba cek ke npm lagi")
             except Exception as e:
                 print(e)
+        else:
+            print("coba cek ke npm lagi")
 
     def bacacsv(self):
        with open('kelas_2b/dyning.csv', 'r') as jadwal:
