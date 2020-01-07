@@ -1,10 +1,11 @@
-2
-3
-12
-42
-53
-53
-123
-124
-11
-14
+KODE,TRAVEL,HARGA,PENURUNAN
+A-1-M,Xtrans,105.000,Jakarta Barat
+A-2-M,Cititrans,110.000,Jakarta Timur
+A-3-M,Day Trans,120.000,Jakarta Selatan
+A-4-M,Primajasa,90.000,Jakarta Utara
+A-2-M,Baraya,88.000,Jakarta Timur
+A-4-M,Cipaganti,150.000,Jakarta Utara
+A-3-M,Transline,75.000,Jakarta Selatan
+A-1-M,F-Trans,90.000,Jakarta Barat
+A-2-M,Teletrans,65.000,Jakarta Timur
+A-1-M,Harum P,65.000,Jakarta Barat
