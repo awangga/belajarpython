@@ -19,10 +19,9 @@ class Hitung:
         conn = sqlite3.connect('data.db')
         c = conn.cursor()
         #execute fungsinya mengeksekusi perintah sql
-        c.execute('create table if not exists \ Mahasiswi(npm REAL, nama TEXT)')
+        c.execute('create table if not exists  Mahasiswi(npm REAL, nama TEXT)')
         #create tabel if not exits artinya jika table sudah ada tidak perlu dibuat lagi
         conn.close()
-        c.close()
    def insert_table(self):
         conn = sqlite3.connect('data.db')
         c = conn.cursor()
@@ -31,7 +30,6 @@ class Hitung:
         conn.commit()
         c.close()
         conn.close()
-        import sqlite3
    def read_data(self):
         conn = sqlite3.connect('data.db')
         c = conn.cursor()
@@ -59,9 +57,10 @@ class Hitung:
         c.close()
         conn.close()
    def gambar_garisputus(self):
-        plt.plot([8,10,12,14,16,18,20],[40,60,98,80,98,80,60,40], 'g--d')
+        plt.plot([8,10,12,14,16,18,20],[40,60,98,80,98,80,60])
+        plt.show()
    def show_gambargarisputus(self):
-       plt.plot([8,10,12,14,16,18,20],[40,60,98,80,98,80,60,40])
+       plt.plot([8,10,12,14,16,18,20],[40,60,98,80,98,80,60], 'g--d')
        plt.show()
    def youtube_ReqGET(self):
         req = requests.get('https://www.youtube.com/channel/UCNBUPDfVtkVbSbsXtRZzVTw?view_as=subscriber')
@@ -71,13 +70,22 @@ class Hitung:
         req.url
         req.history
         req.headers['Content-Type']
-   def youtube_ReqPOST(self):
+        #panggil
+        print(req.content)
+        print(req.status_code)
+        print(req.elapsed)
+        print(req.url)
+        print(req.history)
+        print(req.headers)
+   def ReqPOST(self):
         req = requests.post('http://kampus.awangga.net/', data = {'search': 'assignments'})
         req.raise_for_status()
-        with open('assignments.html', 'web') as fd:
-            for you in req.iter_content(you_size=80.000):
-                fd.write(you)
-    
+        req.url
+        req.history
+        #panggil
+        print(req.raise_for_status)
+        print(req.url)
+        print(req.history)
    #menjalankan perintah
    def bismillah(self):
        self.koneksi_dan_buat()
@@ -90,7 +98,7 @@ class Hitung:
        self.gambar_garisputus()
        self.show_gambargarisputus()
        self.youtube_ReqGET()
-       self.youtube_ReqPOST()
+       self.ReqPOST()
 
 
 
