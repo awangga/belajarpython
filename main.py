@@ -1,8 +1,8 @@
 #absen1
 from kelas_2b import puja
-tampil = puja.Puja()
-tampil.SitiNPK()
-
+rp = 10000
+tampil = puja.Puja(rp)
+tampil.start()
 
 
 
