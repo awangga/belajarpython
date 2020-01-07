@@ -19,7 +19,7 @@ class Echa(object):
         jumlah_awal="20"
         stok_akhir ="10"
         harga ="60000"
-        with open('echa.csv') as data:
+        with open('kelas_2b/echa.csv') as data:
             csv_reader = csv.reader(data)
             for row in csv_reader:
                 if str(row[0])==kode_barang:
