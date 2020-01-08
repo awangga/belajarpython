@@ -127,7 +127,9 @@ arahman = arahman.Jadwal()
 
 
 #absen9
-
+from kelas_2b import echaa
+panggilnya= echaa.Echa()
+panggilnya.panggil()
 
 
 
