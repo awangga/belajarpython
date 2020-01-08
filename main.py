@@ -416,8 +416,15 @@ print(t)
 
 #absen27
 from kelas_2b import hanifah
-data = hanifah.hanifah()
-data.ganjilgenap()
+penurunan="jakarta barat"
+kode="A-1-M"
+hargatotal= 300000
+umur=25
+data = hanifah.hanifah(kode,penurunan, hargatotal, umur)
+data.Program()
+
+
+
 
 
 
