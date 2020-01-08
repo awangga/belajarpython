@@ -161,9 +161,9 @@ arahman = arahman.Jadwal()
 from kelas_2b import dyning
 hari = "senin"
 kelas = "D4TI2B"
-cekjadwal = dyning.Dyning(hari, kelas)
-cekjadwal.DyningAidaBatrishya()
-
+npm = "1184030"
+runn = dyning.Dyning(kelas, npm, hari)
+runn.jalan()
 
 
 
