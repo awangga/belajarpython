@@ -793,8 +793,8 @@ print(heriy)
 
 #absen8
 from kelas_2c import jordan
-ceksifat = jordan.Jordan()
-ceksifat.tampil()
+run = jordan.Yusuf()
+run.show_menu()
 
 
 #absen9
