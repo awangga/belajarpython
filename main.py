@@ -793,14 +793,15 @@ print(heriy)
 
 #absen8
 from kelas_2c import jordan
-run = jordan.Yusuf()
-run.show_menu()
+run = jordan.Yusuf
+run.show_menu
 
 
 #absen9
 from kelas_2c import rizalramadhan
 gofood=rizalramadhan.rizalramadhan()
 gofood.menu(gofood.pesan())
+
 
 
 #absen10
