@@ -808,6 +808,7 @@ gofood.menu(gofood.pesan())
 from kelas_2c import nurul
 data = nurul.nurul()
 data.ganjilgenap()
+data.panggil()
 
 
 #absen11
