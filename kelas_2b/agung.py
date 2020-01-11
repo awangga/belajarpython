@@ -6,6 +6,7 @@ Created on Sun Dec 22 17:33:13 2019
 """
 
 import csv
+import sqlite3
 from matplotlib import pyplot as plt
 import requests
 
@@ -64,6 +65,100 @@ class Tawa(object):
             mahasiswa_writer.writerow(['1184005','Tawakkal', 'IT', 'D4 2B'])
     
 #databse
+    #buat database
+    def database1(self):
+        try:
+            sqliteConnection = sqlite3.connect('./kelas_2b/mantap.db')
+            cursor = sqliteConnection.cursor()
+            print("Membuat Database")
+        
+            sqlite_select_Query = "select sqlite_version();"
+            cursor.execute(sqlite_select_Query)
+            record = cursor.fetchall()
+            print("SQLite Database Version: ", record)
+            cursor.close()
+        
+        except sqlite3.Error as error:
+            print("Koneksi ke sqlite error!", error)
+        finally:
+            if (sqliteConnection):
+                sqliteConnection.close()
+                
+    #buat table
+    def database2(self):
+        try:
+            sqliteConnection = sqlite3.connect('./kelas_2b/mantap.db')
+            membuat_tabel = '''CREATE TABLE t_mahasiswa (
+                                        npm INTEGER PRIMARY KEY,
+                                        nama TEXT NOT NULL,
+                                        email VARCHAR2 NOT NULL UNIQUE
+                                        );'''
+        
+            cursor = sqliteConnection.cursor()
+            print("Koneksi ke sqlite berhasil")
+            cursor.execute(membuat_tabel)
+            sqliteConnection.commit()
+            print("Membuat Table")
+        
+            cursor.close()
+    
+        except sqlite3.Error as error:
+            print("Error membuat table!", error)
+        finally:
+            if (sqliteConnection):
+                sqliteConnection.close()
+                
+    #input
+    def database3(self):
+        try:
+            sqliteConnection = sqlite3.connect('./kelas_2b/mantap.db')
+            mericord_tabel  = '''INSERT INTO t_mahasiswa (
+                                        npm,
+                                        nama,
+                                        email
+                                        ) VALUES (
+                                        1,
+                                        'Ahmad Agung Tawakkal',
+                                        'Mantap@gmail.com'
+                                        );'''
+        
+            cursor = sqliteConnection.cursor()
+            print("Koneksi ke sqlite berhasil")
+            cursor.execute(mericord_tabel)
+            sqliteConnection.commit()
+            print("Data berhasil di ricod")
+            cursor.close()
+    
+        except sqlite3.Error as error:
+            print("Error ricord data!", error)
+        finally:
+            if (sqliteConnection):
+                sqliteConnection.close()
+                
+    #tampil data
+    def database4(self):
+        try:
+            sqliteConnection = sqlite3.connect('./kelas_2b/mantap.db')
+            menampilkan_ricord = '''SELECT * FROM t_mahasiswa'''
+            
+            cursor = sqliteConnection.cursor()
+            print("Koneksi ke sqlite berhasil")
+            cursor.execute(menampilkan_ricord)
+            sqliteConnection.commit()
+            records = cursor.fetchall()
+            print("Menampilkan Ricord Tabel Mahasiswa")
+            for row in records:
+                print ("npm",row[0])
+                print ("nama",row[1])
+                print ("email",row[2])
+                print("\n")
+            cursor.close()
+            
+        except sqlite3.Error as error:
+            print("Error menampilkan data!", error)
+        finally:
+            if (sqliteConnection):
+                sqliteConnection.close()
 
     
 #matplotlib 
@@ -127,6 +222,10 @@ class Tawa(object):
         self.csv1()
         self.csv2()
         self.csv3()
+        self.database1()
+        self.database2()
+        self.database3()
+        self.database4()
         self.matplotlib1()
         self.matplotlib2()
         self.request1()
