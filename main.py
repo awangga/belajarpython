@@ -926,8 +926,8 @@ lihatdata.NuhaHanifatul()
 #absen28
 from kelas_2c import fina
 run = fina.fina()
-run.dunia()
-run.tunjuk()
+run.manggil()
+
 
 #absen29
 from kelas_2c import ryan
