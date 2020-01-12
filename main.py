@@ -753,7 +753,7 @@ print("Tempoyak- kembalian", HargaPasar.Tempoyak(Jumlah))
 from kelas_2c import dinda
 dinda=dinda.DindaAnik()
 dinda.lagu()
-
+dinda.start()
 
 #absen2
 from kelas_2c import murnia
