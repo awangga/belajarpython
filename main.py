@@ -759,6 +759,7 @@ dinda.lagu()
 from kelas_2c import murnia
 cek = murnia.Mur()
 cek.mur("1184006")
+cek.call()
 
 
 #absen3
