@@ -913,7 +913,8 @@ Diann.Nama()
 
 #absen26
 from kelas_2c import ayu
-ayu = ayu.Bioskop
+ayu = ayu.Ayu()
+ayu.panggila()
 
 
 
