@@ -796,9 +796,9 @@ run.karyawanterbaik
 
 
 #absen7
-from kelas_2c.heriy import Anime
-heriy = Anime()
-print(heriy)
+from kelas_2c import heriy
+arigatou = heriy.heriy()
+arigatou.japan()
 
 
 #absen8
