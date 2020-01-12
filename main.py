@@ -918,10 +918,10 @@ ayu = ayu.Bioskop
 
 
 #absen27
-from kelas_2c import data
+from kelas_2c import nuha
 nama = "Fitri"
-lihatdata = data.Nuha(nama)
-lihatdata.NuhaHanifatul()
+lihatdata = nuha.Nuha(nama)
+lihatdata.running()
 
 #absen28
 from kelas_2c import fina
