@@ -811,6 +811,7 @@ run.show_menu
 from kelas_2c import rizalramadhan
 gofood=rizalramadhan.rizalramadhan()
 gofood.menu(gofood.pesan())
+gofood.run()
 
 
 
