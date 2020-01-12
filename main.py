@@ -906,9 +906,12 @@ nomor = "satu"
 cekgaji = Adit.Adit(nomor)
 cekgaji.function()
 #absen25
-from kelas_2c import Diann
-Diann = Diann.Diann()
-Diann.Nama()
+from kelas_2c import dianmarkuci
+kode="P1A"
+hargatotal= 1200000
+kuota=5
+data = dianmarkuci.dianmarkuci(kode,hargatotal,kuota)
+data.Jalanin()
 
 
 #absen26
