@@ -771,7 +771,16 @@ a.Color()
 #absen4
 from kelas_2c import helmiazhar
 helmiazhar = helmiazhar.helmi()
+helmiazhar.salam()
 helmiazhar.stok()
+helmiazhar.matp()
+helmiazhar.requ()
+helmiazhar.membuatdatabase()
+helmiazhar.membuattabel()
+helmiazhar.insert()
+helmiazhar.show()
+helmiazhar.hapus()
+helmiazhar.bareng()
 
 
 #absen5
