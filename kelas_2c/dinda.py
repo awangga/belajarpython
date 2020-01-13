@@ -103,14 +103,4 @@ class DindaAnik(object):
              self.grafiktanggalagu()
              self.request()
              self.matpotlib()
-             self.matpotlib1()          
-
-       
-                    
-                
-                
-                
-             
-                
-            
-    
+             self.matpotlib1()  
