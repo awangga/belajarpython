@@ -26,59 +26,60 @@ class ryan:
         req.history
         req.headers['Content-Type']
     
-            
-    def createdatabase(self):
-        sqlite3.connect('ryan.db')
-        print("Database Berhasil Dibuat")
-        
-    def createtabel(self):
-        db = sqlite3.connect('ryan.db')
-        cursor = db.cursor()
-        sql = """CREATE TABLE data (
-        jenis VARCHAER(30),
-        merk VARCHAR(30),
-        tahun Varchar(30)
-        )"""
-        cursor.execute(sql)
-        print("Udah buat ya!")
-        
-        
-        
-    def insert(self):
-        # Membuka  koneksi ke database
-        db = sqlite3.connect('ryan.db' )
-        # menyiapkan method menggunakan db cursor
-        cursor = db.cursor()
-        # kodingan untuk insert
-        sql = """INSERT INTO data(jenis, merk, tahun)
-        VALUES ('sedan', 'starlet', '2006')"""
-            # Execute  SQL command
-        cursor.execute(sql)
-            # masuk datanya ke database
-        db.commit()
-        print("{} data berhasil ditambahkan".format(cursor.rowcount))
-    
+    def penyanyi(self):
+        penyanyi1 = "1"
+        penyanyi2 = "2"
 
-        
-    def show(self):
-        db = sqlite3.connect('ryan.db')
-        cursor = db.cursor()
-        sql = "SELECT * FROM data"
-        cursor.execute(sql)
-        results = cursor.fetchall()
-        for data in results:
-            print(data)
-            
-            
-    def hapus(self):
-        db = sqlite3.connect('ryan.db')
-        cursor = db.cursor()
-        cursor.execute('DELETE FROM data WHERE tahun=2006')
-        db.commit()
-        print("{} data dihapus".format(cursor.rowcount))
+        if penyanyi1 == "1":
+            print("Juice WRLD")
+        elif penyanyi2 == "2":
+            print("Billie Elish")
+        else:
+            print("Penyayi Terpopuler")
+
+    def grafiktanggalagu(self):
+        plt.plot([1,2,3,4,5,6,7,8],[87, 90, 95, 93, 85, 86, 90, 97])
+        plt.show()
+
+    def request(self):
+        req = requests.get('https://www.youtube.com/')
+        req.encoding      
+        req.status_code   
+        req.elapsed       
+        req.url           
+        req.history  
+        req.headers['Content-Type']
+        try:
+            print(req.status_code)
+            print(req.encoding)
+            print(req.headers)
+            print(req.url)
+            print(req.elapsed)
+            print(req.history)
+        except Exception as e:
+            print(e)
+
+    def matpotlib2(self):
+        x = [1,2,3,4,5,6,7,8,]
+        y = [11,12,13,14,15,16,17,18]
+        plt.scatter(x,y)
+        plt.show()
+    def matpotlib1(self):
+            x = ([1,2,3,4,5,6,7,8,9],[11,12,13,14,15,16,17,18])
+            num_bins = 6
+            plt.hist(x,num_bins, facecolor = 'blue')
+            plt.title("contoh judul pada matplotlib")
+            plt.xlabel("label x matplotlib")
+            plt.ylabel("label y matplotlib")
+
+            plt.show()
     
     def runing(self):
         self.awal()
         self.gudang()
-        self.insert()
-        self.show()
+        self.matplotlib()
+        self.reqq()
+        self.penyanyi()
+        self.grafiktanggalagu()
+        self.matpotlib2()
+        self.matpotlib1()
