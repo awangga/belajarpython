@@ -885,8 +885,8 @@ lanjut.MataBatin()
 
 #absen21
 from kelas_2c import dimas
-ojol = dimas.maulana()
-ojol.ojek()
+dimas = dimas.maulana()
+dimas.together()
 
 
 #absen22
