@@ -855,7 +855,17 @@ run.jalankan()
 
 #absen16
 from kelas_2c import Ariq
-
+from kelas_2c import AriqRafi
+AriqRafi = AriqRafi.Ariq()
+AriqRafi.Menu()
+AriqRafi.Salam()
+AriqRafi.Reader()
+AriqRafi.Menulis()
+AriqRafi.Nano()
+AriqRafi.link()
+AriqRafi.Line_plot()
+AriqRafi.Scatter_plot()
+AriqRafi.Histogram()
 absen = "satu"
 ceknpm = Ariq.Ariq(absen)
 ceknpm.function()
