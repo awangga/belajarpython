@@ -1,3 +1,4 @@
+
 #absen1
 from kelas_2b import puja
 rp = 10000
@@ -766,7 +767,7 @@ cek.call()
 from kelas_2c import gany
 a = gany.Gany()
 a.Color()
-
+a.panggil()
 
 #absen4
 from kelas_2c import helmiazhar
