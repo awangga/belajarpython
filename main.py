@@ -849,7 +849,7 @@ cekharga.function()
 #absen15
 from kelas_2c import yuki
 run =yuki.yuki()
-run.olahraga()
+run.jalankan()
 
 
 #absen16
