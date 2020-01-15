@@ -947,8 +947,8 @@ run.manggil()
 
 #absen29
 from kelas_2c import ryan
-ryan = ryan.hitung()
-ryan.kali()
+run = ryan.ryan()
+run.runing()
 
 
 #absen30
