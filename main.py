@@ -785,9 +785,9 @@ helmiazhar.bareng()
 
 
 #absen5
-
-
-
+from kelas_2c import nella
+cek = nella.nella()
+cek.test()
 
 
 #absen6
