@@ -80,3 +80,20 @@ Penilaian sederhana, 1 method nilia 10.
 Selain itu, selama proses pengerjaan maka wajib direkam desktopnya sambil memberikan penjelasan tentang bagaimana method nya bekerja dan pemanggilannya serta bagaimana cara melakukan pull request yang bebas konflik, lebih bagus lagi dilengkapi webcam. Video yang sudah dibuat sebelum di unggah ke youtube, wajib ditambahkan video pembukaan(diambil dari menu dokumen portal kampus keren) di gabung bagian depan video. Kemudian diupload ke youtube untuk diberikan penilaian terpisah. 
 
 Untuk deadline vidio sudah terupload dan di share di wa grup kelas adalah esok harinya setelah pengumpulan pukul 07.00. Pastikan pada saat share meta data link youtube yang di share sudah terbaca di grup WA sebelum di submit. Pastikan pada deskripsi di youtube berisi nama dan NPM.
+
+
+# Kuis Pemrograman part 4
+Perbaikan kelas :
+1. Setiap method harus menggunakan method lainnya.
+2. Gunakan parameter method.
+3. Setiap method harus ada return.
+4. inputan hanya pada saat inisialisasi kelas.
+5. Menjadi program utuh.
+
+Deadline : 16 januari 2020
+
+## Tugas Vidio
+Selain itu, selama proses pengerjaan maka wajib direkam desktopnya sambil memberikan penjelasan tentang bagaimana method nya bekerja dan pemanggilannya serta bagaimana cara melakukan pull request yang bebas konflik, lebih bagus lagi dilengkapi webcam. Video yang sudah dibuat sebelum di unggah ke youtube, wajib ditambahkan video pembukaan(diambil dari menu dokumen portal kampus keren) di gabung bagian depan video. Kemudian diupload ke youtube untuk diberikan penilaian terpisah. 
+
+Untuk deadline vidio sudah terupload dan di share di wa grup kelas adalah esok harinya setelah pengumpulan pukul 07.00. Pastikan pada saat share meta data link youtube yang di share sudah terbaca di grup WA sebelum di submit. Pastikan pada deskripsi di youtube berisi nama dan NPM.
+
